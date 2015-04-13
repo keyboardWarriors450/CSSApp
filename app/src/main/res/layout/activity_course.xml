@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.viet.cssapp.CourseActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/courseID"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="98dp"
+        android:layout_marginLeft="50dp"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="courseID"
+        android:layout_alignRight="@+id/longDescription"
+        android:layout_alignEnd="@+id/longDescription" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/shortDescription"
+        android:layout_below="@+id/courseID"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="shortDecription"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignRight="@+id/longDescription"
+        android:layout_alignEnd="@+id/longDescription" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/longDescription"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/shortDescription"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:hint="Long Description" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prerequisites"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/longDescription"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="prerequisites"
+        android:layout_alignRight="@+id/longDescription"
+        android:layout_alignEnd="@+id/longDescription" />
+</RelativeLayout>
